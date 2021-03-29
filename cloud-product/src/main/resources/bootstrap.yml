@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    # 应用名称
+    name: product-service
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        server-addr: localhost:8848
+        namespace: 279ab754-6d80-4906-b7ea-aca123b6b60b
+
